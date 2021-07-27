@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--==================== Android ====================-->
+  <meta name="mobile-web-app-capable" content="yes">
+
+  <!--==================== Ios ====================-->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <!--==================== CSS ====================-->
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <!--==================== Title ====================-->
+  <title>Rendom Password Ganrater</title>
+</head>
+
+<body>
+
+  <div class="mainBox">
+    <div class="inputBox">
+      <h2>Rendom Password Ganrater</h2>
+      <input type="text" name="" placeholder="Create Password" id="password" readonly="" />
+      <img src="assets/img/copy.png" alt="copy" class="copy" onclick="copyPassword()" />
+      <div id="btn" onclick="getPassword();">
+        Ganrater Password
+      </div>
+    </div>
+  </div>
+  <div class="alertBox"></div>
+
+  <!--==================== Script ====================-->
+  <script src="assets/js/main.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
